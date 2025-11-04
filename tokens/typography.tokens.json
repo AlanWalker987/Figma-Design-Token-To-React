@@ -1,0 +1,124 @@
+{
+    "font": {
+        "family": {
+            "display": {
+                "value": "Inter",
+                "type": "text"
+            },
+            "text": {
+                "value": "Inter",
+                "type": "text"
+            }
+        },
+        "size": {
+            "text": {
+                "xs": {
+                    "value": "12px",
+                    "type": "text"
+                },
+                "sm": {
+                    "value": "14px",
+                    "type": "text"
+                },
+                "md": {
+                    "value": "16px",
+                    "type": "text"
+                },
+                "lg": {
+                    "value": "18px",
+                    "type": "text"
+                },
+                "xl": {
+                    "value": "20px",
+                    "type": "text"
+                }
+            },
+            "display": {
+                "xs": {
+                    "value": "24px",
+                    "type": "text"
+                },
+                "sm": {
+                    "value": "30px",
+                    "type": "text"
+                },
+                "md": {
+                    "value": "36px",
+                    "type": "text"
+                },
+                "lg": {
+                    "value": "48px",
+                    "type": "text"
+                },
+                "xl": {
+                    "value": "60px",
+                    "type": "text"
+                }
+            }
+        },
+        "line-height": {
+            "text": {
+                "xs": {
+                    "value": "18px",
+                    "type": "text"
+                },
+                "sm": {
+                    "value": "20px",
+                    "type": "text"
+                },
+                "md": {
+                    "value": "24px",
+                    "type": "text"
+                },
+                "lg": {
+                    "value": "28px",
+                    "type": "text"
+                },
+                "xl": {
+                    "value": "30px",
+                    "type": "text"
+                }
+            },
+            "display": {
+                "xs": {
+                    "value": "32px",
+                    "type": "text"
+                },
+                "sm": {
+                    "value": "38px",
+                    "type": "text"
+                },
+                "md": {
+                    "value": "44px",
+                    "type": "text"
+                },
+                "lg": {
+                    "value": "60px",
+                    "type": "text"
+                },
+                "xl": {
+                    "value": "72px",
+                    "type": "text"
+                }
+            }
+        },
+        "weight": {
+            "regular": {
+                "value": 400,
+                "type": "number"
+            },
+            "medium": {
+                "value": 500,
+                "type": "number"
+            },
+            "semi bold": {
+                "value": 600,
+                "type": "number"
+            },
+            "bold": {
+                "value": 700,
+                "type": "number"
+            }
+        }
+    }
+}

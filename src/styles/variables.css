@@ -1,10 +1,8 @@
-import "./App.css";
-import { createGlobalStyle, ThemeProvider } from "styled-components";
-import BlogCard from "./components/BlogCard";
-import { createTheme, Stack } from "@mui/material";
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
 
-const GlobalStyles = createGlobalStyle`
-html {
+:root {
   --color-primary-25: #e3f2fd;
   --color-primary-50: #bbdefb;
   --color-primary-100: #90caf9;
@@ -101,25 +99,3 @@ html {
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
 }
-`;
-const theme = createTheme({ cssVariables: true });
-
-function App() {
-  return (
-    <>
-      <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        <Stack width="400px" spacing={2}>
-          <BlogCard
-            category="Design"
-            title="How collaboration makes us better designers"
-            description="Collaboration can make our teams stronger, and our individual designs better."
-            imageUrl="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?_gl=1*gvv6ah*_ga*MTkzOTIxNTY2NC4xNzQ5OTYyMjU0*_ga_8JE65Q40S6*czE3NTQ3MTgzMzEkbzgkZzEkdDE3NTQ3MTgzNDMkajQ4JGwwJGgw"
-          />
-        </Stack>
-      </ThemeProvider>
-    </>
-  );
-}
-
-export default App;
